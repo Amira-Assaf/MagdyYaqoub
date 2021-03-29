@@ -1694,7 +1694,8 @@ ul{
 /*------------------16. footer-area start --------------------*/
 .footer-top{
 	padding:100px 0px;
-	background:#296dc1;
+	/*background:#296dc1;*/
+	background:url(../imgs/bg8.jpg)no-repeat center center / cover;
 }
 .footer-logo h1{
     font-size: 24px;
