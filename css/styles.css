@@ -1019,7 +1019,7 @@ ul{
 	width:100%;
 	height:100%;
 	content:"";
-	background:#296dc1;
+	background:rgba(0,0,0,.8);
 	z-index:-9;
 }
 .overlay a{
@@ -1188,8 +1188,11 @@ ul{
 
 /*------------- 9. video-area start --------------------------*/
 .video-area{
-	height:400px;
+	height:320px;
+	border:solid #555 2px;
+	border-radius:.5rem;
 }
+
 .video-wrap a {
 	animation: .8s cubic-bezier(0.8, 0, 0, 1) 1s normal none infinite running pulse;
 	-webkit-animation: .8s cubic-bezier(0.8, 0, 0, 1) 1s normal none infinite running pulse;
@@ -1419,10 +1422,11 @@ ul{
 .faq-wrap .panel-default a {
 	display: block;
 	position: relative;
-	background:#296dc1;
+	background:rgba(0,0,0,.8);
 	color:#fff;
 	overflow:hidden;
 	font-size:15px;
+	
 }
 .faq-wrap .panel-default a:before{
     position: absolute;
@@ -1493,7 +1497,9 @@ ul{
 /*-----------12. client-area start --------------*/
 .client-info{
 	padding:25px 20px;
-	background:#296dc1;
+	background:rgba(0,0,0,.7);
+	border-radius:.5rem;
+	/*border: solid .5px #296dc1;*/
 }
 .client-info h3{
 	font-size:16px;
@@ -1519,6 +1525,8 @@ ul{
 .client-img{
 	position:relative;
 	z-index:9;
+	border:solid #333 .5px;
+	border-radius:.5rem;
 }
 .client-img:before{
 	position:absolute;
@@ -1656,6 +1664,11 @@ ul{
 }
 .blog-content a.btn-style{
 	border:1px solid #296dc1;
+}
+.btn-more{
+	padding:5px;
+	border:solid white 2px;
+	border-radius:.5rem;
 }
 /*------------------14. blog-area end --------------------*/
 
