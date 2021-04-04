@@ -975,7 +975,8 @@ ul{
     color: #fff;
     border: none;
     font-size: 12px;
-    background: #296dc1;
+    /*background: #296dc1;*/
+	background:rgba(0,0,0,.8);
     overflow: hidden;
     z-index: 9;
 }
@@ -1209,6 +1210,7 @@ ul{
 	border:2px solid #fff;
 	color: #296dc1;
 	background:#fff;
+	margin-left:50%;
 }
 .video-wrap a:hover{
 	background:#296dc1;
@@ -3103,4 +3105,7 @@ h3.blog-title::after{
 }
 .text-white{
 	color:white;
+}
+.pb-10{
+	padding-bottom:10px;
 }
