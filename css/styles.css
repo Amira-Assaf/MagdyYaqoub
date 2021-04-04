@@ -105,13 +105,13 @@ ul{
 	background:url(../imgs/img-2.jpg)no-repeat center center / cover;
 }
 .bg-img-3{
-	background:url(../images/bg/6.jpg)no-repeat center center / cover;
+	background:url(../imgs/749.jpg)no-repeat center center / cover;
 }
 .bg-img-4{
 	background:url(../images/bg/7.jpg)no-repeat center center / cover;
 }
 .bg-img-5{
-	background:url(../images/bg/8.jpg)no-repeat center center / cover;
+	background:url(../imgs/img-8.jpg)no-repeat center center / cover;
 }
 .bg-img-6{
 	background:url(../images/bg/9.jpg)no-repeat center center / cover;
@@ -1667,7 +1667,7 @@ ul{
 }
 .btn-more{
 	padding:5px;
-	border:solid white 2px;
+	border:solid #f1f1f1 2px;
 	border-radius:.5rem;
 }
 /*------------------14. blog-area end --------------------*/
