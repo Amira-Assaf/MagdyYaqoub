@@ -1877,6 +1877,12 @@ ul{
 .header-top-right ul li a:hover{
     color: #fff;
 }
+.header-bottom{
+	background-color:rgba(0,0,0,.8);
+}
+.header-bottom .mainmenu ul li a {
+	color:#fff;
+}
 .header-bottom .mainmenu > ul {
     justify-content: flex-start;
 }
@@ -1919,16 +1925,19 @@ ul{
 	font-size: 30px;
     margin-right: 15px;
     line-height: 40px;
-    color: #fff;
+    /*color: #fff;*/
+	color:#296dc1;
 }
 .header-middle-right ul li .contact-info p{
-    color: #fff;
+    /*color: #fff;*/
+	color:#296dc1;
     line-height: 20px;
 }
 .header-middle-right ul li .contact-info span{
     font-size: 12px;
     font-style: italic;
-    color: #d2d2d2;
+    color: black;
+	font-weight:bold;
 }
 
 
